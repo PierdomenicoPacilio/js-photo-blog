@@ -1,0 +1,35 @@
+/******** 
+reset 
+********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+/******** 
+common
+********/
+
+.container {
+    display: flex;
+}
+
+.debug {
+    /* display: none; */
+    border: 1px dashed #000000; 
+}
+
+.inl {
+    display: inline;
+}
+
+.inl-bl {
+    display: inline-block;
+}
