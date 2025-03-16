@@ -93,3 +93,19 @@ main p {
     margin-top: 20px;
     font-family: "Edu Tas Beginner", sans-serif;
 }
+
+@media screen and (max-width:768px){
+
+    #grid div {
+        width: calc((100% - 20px) / 2);
+
+    }
+}
+
+@media screen and (max-width:425px){
+
+    #grid div {
+        width: 100%;
+
+    }
+}
