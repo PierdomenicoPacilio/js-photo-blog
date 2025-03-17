@@ -74,6 +74,10 @@ body {
     position: relative;
 }
 
+.ov-hid {
+    overflow: hidden;
+}
+
 main {
     padding: 50px;
 }
@@ -133,10 +137,11 @@ main {
 button {
     padding: 8px 20px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 #overlay img {
-    max-width: 25%;
+    max-width: 35%;
 }
 
 @media screen and (max-width:768px){
