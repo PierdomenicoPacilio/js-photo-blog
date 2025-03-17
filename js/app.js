@@ -37,7 +37,7 @@ axios.get('https://lanciweb.github.io/demo/api/pictures/')
                         body.classList.remove('ov-hid');
                         overlay.innerHTML = '';
                     });
-                }
+                };
                 currentHTMLElement.addEventListener('click', () => overlayFunction(currentElement.url) );
                 console.log('elemento aggiunto');
             };
