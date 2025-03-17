@@ -41,7 +41,8 @@ common
 
 header {
     background-image:url(../img/wall.png);
-    background-size: 20em;
+    background-position:center;
+    background-size: 33%;
     background-repeat: repeat;
     padding: 30px;
 }
@@ -63,7 +64,8 @@ h1 {
 
 body {
     background-image:url(../img/cork.png);
-    background-size: 25em;
+    background-position:center;
+    background-size: 33%;
     background-repeat: repeat;
 }
 
@@ -87,10 +89,22 @@ body {
     padding: 20px;
     background-color: white;
     position: relative;
+    box-shadow: 5px 3px 3px rgb(0, 0, 0, 0.4);
 }
 
-main p {
-    margin-top: 20px;
+.data {
+    letter-spacing: 1px;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-top: 15px;
+    font-family:"Sometype Mono", 'monospace' ;
+}
+
+.title {
+    letter-spacing: 1px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 10px;
     font-family: "Edu Tas Beginner", sans-serif;
 }
 
@@ -98,7 +112,9 @@ main p {
 
     #grid div {
         width: calc((100% - 20px) / 2);
-
+    }
+    h1 {
+        font-size: 3rem;
     }
 }
 
@@ -106,6 +122,8 @@ main p {
 
     #grid div {
         width: 100%;
-
+    }
+    h1 {
+        font-size: 2rem;
     }
 }

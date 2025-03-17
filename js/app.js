@@ -7,7 +7,8 @@ axios.get('https://lanciweb.github.io/demo/api/pictures/')
                 gridOutput.innerHTML += `<div>
                                             <img id="pin" src="img/pin.svg" alt="pin">
                                             <img src=${element.data[i].url} alt="">
-                                            <p>${element.data[i].title}</p>
+                                            <p class="data">${element.data[i].date}</p>
+                                            <p class="title">${element.data[i].title.toUpperCase()}</p>
                                         </div>`;
                 console.log('elemento aggiunto');
             };
