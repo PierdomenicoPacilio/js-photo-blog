@@ -157,20 +157,36 @@ button {
 
 @media screen and (max-width:768px){
 
-    #grid div {
+    body {
+        background-size: 50%;
+    }
+        #grid div {
         width: calc((100% - 20px) / 2);
     }
     h1 {
         font-size: 3rem;
     }
+    .data {
+        letter-spacing: none;
+    }
+    .title {
+        letter-spacing: none;
+        font-size: large;
+    }
 }
 
 @media screen and (max-width:425px){
 
+    body {
+        background-size: 100%;
+    }
     #grid div {
         width: 100%;
     }
     h1 {
         font-size: 2rem;
+    }
+    #overlay img {
+        max-width: 80%;
     }
 }
