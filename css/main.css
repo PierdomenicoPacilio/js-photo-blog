@@ -39,6 +39,8 @@ common
 }
 
 
+
+
 /**************** 
     HEADER
 ****************/
@@ -81,6 +83,12 @@ body {
 main {
     padding: 50px;
 }
+
+
+
+/******** 
+  grid
+********/
 
 #grid {
     max-width: 80%;
@@ -133,6 +141,13 @@ main {
     font-family: "Edu Tas Beginner", sans-serif;
 }
 
+
+
+
+/******** 
+ overlay
+********/
+
 #overlay {
     position:fixed;
     z-index: 2;
@@ -155,6 +170,16 @@ button {
     max-width: 35%;
 }
 
+
+
+
+
+
+
+/****************
+    TABLET
+****************/
+
 @media screen and (max-width:768px){
 
     body {
@@ -174,6 +199,13 @@ button {
         font-size: large;
     }
 }
+
+
+
+
+/****************
+    MOBILE
+****************/
 
 @media screen and (max-width:425px){
 
